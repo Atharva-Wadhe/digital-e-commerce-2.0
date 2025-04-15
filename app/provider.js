@@ -5,7 +5,7 @@ import axios from 'axios';
 import { useUser } from '@clerk/nextjs';
 import { CartContext } from './_context/CartContext';
 import { PayPalScriptProvider } from '@paypal/react-paypal-js';
-import ChatBot from './_components/chatBot';
+import ChatBot from './_components/ChatBot';
 
 function Provider({ children }) {
   const { user } = useUser();
